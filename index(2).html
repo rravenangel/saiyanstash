@@ -867,7 +867,7 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=754614210659500&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-<script type="text/javascript" src="https://payhip.com/payhip.js"></script>
+<script src="https://sellauth.com/assets/js/sellauth-embed-2.js"></script>
 </head>
 <body class="bg-gray-900">
   <section class="hero-section overflow-hidden">
@@ -898,12 +898,11 @@ src="https://www.facebook.com/tr?id=754614210659500&ev=PageView&noscript=1"
   <span>BUY NOW!</span>
 </button>
 
-<a href="https://payhip.com/b/mKhxo"
-   id="payhipHiddenBuyButton"
-   class="payhip-buy-button"
-   data-theme="green"
-   data-product="mKhxo"
-   style="display: none !important;">Buy Now</a>
+<a href="https://saiyanstash.sellfy.store/embed/checkout/product/v3a3pa/add/"
+   id="sellfyHiddenBuyButton"
+   class="sellfy-buy-button"
+   data-text=""
+   style="display: none !important;"></a>
         <div class="bg-black bg-opacity-50 backdrop-blur-sm px-6 py-3 rounded-lg shadow-md inline-block">
           <p class="font-mono text-base text-gray-100">
             PROMO ENDS IN:
@@ -1444,20 +1443,6 @@ document.addEventListener("DOMContentLoaded", function () {
   setTimeout(scheduleNextNotification, 5000);  
 
 })();
-</script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const customButton = document.getElementById('customBuyNowButton');
-    const hiddenPayhipButton = document.getElementById('payhipHiddenBuyButton');
-
-    if (customButton && hiddenPayhipButton) {
-        customButton.addEventListener('click', function() {
-            // Memicu klik pada tombol Payhip yang tersembunyi
-            // Payhip.js akan mendeteksi klik ini dan membuka pop-up checkout
-            hiddenPayhipButton.click();
-        });
-    }
-});
 </script>
 </body>
 </html>
